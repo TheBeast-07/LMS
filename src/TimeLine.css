@@ -1,0 +1,40 @@
+.timeline-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for better visibility */
+    width: 100%; /* Adjust width as needed */
+    max-width: 600px; /* Optional: limit the maximum width */
+    margin: 20px auto; /* Center the container */
+  }
+  
+  .timeline-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-boxes {
+    display: flex;
+    justify-content: space-between;
+     /* Ensure boxes stretch to the same height */
+  }
+  
+  .box {
+    flex: 1; /* Allow boxes to grow equally */
+    padding: 10px;
+    border: 1px solid #007bff; /* Border color for the boxes */
+    border-radius: 5px;
+    margin: 0 10px; /* Space between boxes */
+    background-color: #ffffff; /* White background for boxes */
+  }
+  
+  .divider {
+    width: 2px; /* Width of the divider */
+    background-color: #ccc; /* Color of the divider */
+  }
+  
+  .no-activity {
+    text-align: center;
+    margin-top: 20px; /* Space above the message */
+    font-weight: bold; /* Make the message bold */
+  }

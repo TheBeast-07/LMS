@@ -1,0 +1,21 @@
+.online-users {
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 8px; /* Smooth rounded corners */
+    font-size: 1rem; /* Readable font size */
+  }
+  
+  .online-users h5 {
+    font-weight: bold;
+    color: #343a40; /* Dark gray color for heading */
+  }
+  
+  .online-users p {
+    font-size: 0.9rem;
+    color: #6c757d; /* Subtle gray for user count */
+  }
+  
+  .online-users ul li {
+    font-size: 1rem;
+    color: #212529; /* Dark text for user names */
+  }
+  

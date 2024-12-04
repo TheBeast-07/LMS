@@ -1,0 +1,11 @@
+.private {
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    /* Center the text */
+    height: 200px; /* Set a height for vertical alignment */
+    width: 100%; /* Full width for responsiveness */
+    background-color: #f9f9f9; /* Light background color */
+    margin: 1rem 0; /* Add spacing around the component */
+    text-decoration: none;
+  }
+  

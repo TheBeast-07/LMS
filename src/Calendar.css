@@ -1,0 +1,22 @@
+.calendar-container {
+    background-color: #f8f9fa; /* Light background for contrast */
+    border-radius: 8px; /* Smooth rounded corners */
+    font-size: 1rem; /* Consistent font size */
+  }
+  
+  .calendar-image img {
+    width: 100px; /* Fixed size for image */
+    height: 100px; /* Ensures the image remains square */
+    object-fit: cover; /* Ensures the image is nicely cropped */
+  }
+  
+  .calendar-content h5 {
+    font-weight: bold;
+    color: #343a40; /* Dark gray color for the heading */
+  }
+  
+  .calendar-content p {
+    font-size: 0.9rem;
+    color: #6c757d; /* Subtle gray for the subtitle */
+  }
+  
